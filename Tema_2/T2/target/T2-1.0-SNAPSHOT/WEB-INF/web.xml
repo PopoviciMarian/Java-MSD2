@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd"
+         version="6.0">
+
+    <!-- Context Parameters -->
+    <context-param>
+        <param-name>prelude</param-name>
+        <param-value>This is the beginning</param-value>
+    </context-param>
+    <context-param>
+        <param-name>coda</param-name>
+        <param-value>This is the end</param-value>
+    </context-param>
+
+    <!-- Listener Configuration -->
+    <listener>
+        <listener-class>com.example.t2.AppListener</listener-class>
+    </listener>
+
+</web-app>
